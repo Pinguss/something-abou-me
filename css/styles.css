@@ -52,7 +52,13 @@ header .nav-item:hover {
 }
 
 .card:hover {
+  cursor: pointer;
   -webkit-box-shadow: 0px 0px 18px 1px rgba(105,105,105,0.75);
   -moz-box-shadow: 0px 0px 18px 1px rgba(105,105,105,0.75);
   box-shadow: 0px 0px 18px 1px rgba(105,105,105,0.75);
+}
+
+iframe {
+  display: block;
+  margin: 100px auto;
 }
