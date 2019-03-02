@@ -3,9 +3,14 @@ h1, h2, h3, a, p {
   padding: 0;
 }
 
+@font-face {
+  font-family: 'BangerMyFont';
+  src: url('Bangers-Regular.ttf') format('truetype');
+}
+
 h1 {
   font-size: 5rem;
-  font-family: 'Bangers', cursive;
+  font-family: 'BangerMyFont', Fallback, sans-serif;
   margin-bottom: 50px;
 }
 
@@ -87,9 +92,14 @@ header .nav-item:hover {
   margin: 0 auto;
 }
 
+@font-face {
+  font-family: 'BarlowMyFont';
+  src: url('BarlowSemiCondensed-Regular.ttf') format('truetype');
+}
+
 .pfelda {
   text-align: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'BarlowMyFont', Fallback, sans-serif;
   font-size: 2rem;
 }
 
