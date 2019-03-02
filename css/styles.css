@@ -121,8 +121,15 @@ header .nav-item:hover {
 }
 
 @media only screen and (max-width: 1020px) {
+  .btn{
+    background-color: white;
+    color: red;
+    border: solid 1.5px red;
+    padding: 25px 30px;
+  }
   .btn:active {
-  color: white;
+    background-color: red;
+    color: white
 }
 
 }
