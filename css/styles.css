@@ -120,6 +120,13 @@ header .nav-item:hover {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 1020px) {
+  .btn:active {
+  color: white;
+}
+
+}
+
 .feldaDrift img {
   display: block;
   width: 60%;
