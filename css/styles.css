@@ -114,24 +114,22 @@ header .nav-item:hover {
 .btn {
   padding: 15px 20px;
   background-color: red;
-  color: white;
+  color: white !important;
   border-radius: 10px;
   cursor: pointer;
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 1020px) {
-  .btn{
-    background-color: white;
-    color: red;
-    border: solid 1.5px red;
-    padding: 25px 30px;
-  }
-  .btn:active {
-    background-color: red;
-    color: white
+.btn:hover {
+  background-color: white;
+  color: red !important;
+  border: solid 1.5px red;
 }
 
+@media only screen and (max-width: 1020px) {
+  .btn{
+    padding: 25px 30px;
+  }
 }
 
 .feldaDrift img {
