@@ -111,24 +111,32 @@ header .nav-item:hover {
 }
 
 
-.btn {
+.btnMoje {
+  text-align: center;
   padding: 15px 20px;
   background-color: red;
-  color: white !important;
+  margin: 0 auto;
+  color: white;
   border-radius: 10px;
   cursor: pointer;
   font-size: 1.5rem;
+  width: 200px;
 }
 
-.btn:hover {
+.btnMoje:hover {
   background-color: white;
-  color: red !important;
+  color: red;
   border: solid 1.5px red;
+  width: 201.5px;
 }
 
 @media only screen and (max-width: 1020px) {
-  .btn{
-    padding: 25px 30px;
+  .btnMoje{
+      width: 300px;
+      font-size: 2rem;
+  }
+  .btnMoje:hover {
+    width: 301.5px;
   }
 }
 
