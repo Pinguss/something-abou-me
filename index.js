@@ -1,5 +1,5 @@
 
-  $(".btn").click( function(){
+  $(".btnMoje").click( function(){
 
     var number = Math.floor(Math.random() * 101);
     $("h1").text(number + "% láska!");
@@ -19,7 +19,7 @@
     else{
       vysledek = "Úžasný! Ty feldu skutečně miluješ! Jsi nefalšovaný felďácký milovník! 😍";
       const playSound = new Audio("audio/felicie.mp3").play();
-      $(".formular").remove();
+      $(".btnMoje").remove();
       $(".feldaDrift img").attr("src","http://zonderpump.com/images/skoda-felicia.jpg");
       }
 
