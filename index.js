@@ -5,6 +5,7 @@ $(".btnMoje").click( function(){
 
     if (number < 30){
       var vysledek = "Tvá láska k feldě míří k bodu mrazu... 😢";
+      const playSound = new Audio("audio/break-my-heart.mp3").play();
       $(".btnMoje").remove();
       $(".feldaFail img").attr("src","https://i.imgur.com/PRBKIKB.gif?noredirect");
     }
@@ -28,8 +29,8 @@ $(".btnMoje").click( function(){
 // https://codepen.io/bferioli/pen/qEGaPp
 
       var HeartsBackground = {
-        heartHeight: 60,
-        heartWidth: 64,
+        heartHeight: 70,
+        heartWidth: 74,
         hearts: [],
         heartImage: 'https://cdn4.iconfinder.com/data/icons/reaction/33/love-512.png',
         maxHearts: 8,
