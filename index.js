@@ -5,6 +5,8 @@ $(".btnMoje").click( function(){
 
     if (number < 30){
       var vysledek = "Tvá láska k feldě míří k bodu mrazu... 😢";
+      $(".btnMoje").remove();
+      $(".feldaFail img").attr("src","https://i.imgur.com/PRBKIKB.gif?noredirect");
     }
 
     else if (number >= 30 && number < 50){
@@ -19,7 +21,11 @@ $(".btnMoje").click( function(){
       vysledek = "Úžasný! Ty feldu skutečně miluješ! Jsi nefalšovaný felďácký milovník! 😍";
       const playSound = new Audio("audio/felicie.mp3").play();
       $(".btnMoje").remove();
-      $(".feldaDrift img").attr("src","http://zonderpump.com/images/skoda-felicia.jpg");
+      $(".feldaDrift img").attr("src","https://thumbs.gfycat.com/OptimisticDistortedGrayfox-size_restricted.gif");
+      $("h1").css({'color': '#red'});
+
+
+// https://codepen.io/bferioli/pen/qEGaPp
 
       var HeartsBackground = {
         heartHeight: 60,
